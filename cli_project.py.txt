@@ -1,0 +1,9 @@
+# cli_project.py
+
+def main():
+    print("Welcome to the Command Line Interface!")
+    name = input("Please enter your name: ")
+    print(f"Hello, {name}! Nice to meet you.")
+
+if __name__ == "__main__":
+    main()
